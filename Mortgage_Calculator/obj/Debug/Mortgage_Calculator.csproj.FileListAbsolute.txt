@@ -1,0 +1,13 @@
+D:\development\Mortgage_Calculator\Mortgage_Calculator\bin\Debug\Mortgage_Calculator.exe.config
+D:\development\Mortgage_Calculator\Mortgage_Calculator\bin\Debug\Mortgage_Calculator.exe
+D:\development\Mortgage_Calculator\Mortgage_Calculator\bin\Debug\Mortgage_Calculator.pdb
+D:\development\Mortgage_Calculator\Mortgage_Calculator\obj\Debug\Mortgage_Calculator.csprojResolveAssemblyReference.cache
+D:\development\Mortgage_Calculator\Mortgage_Calculator\obj\Debug\MainWindow.baml
+D:\development\Mortgage_Calculator\Mortgage_Calculator\obj\Debug\MainWindow.g.cs
+D:\development\Mortgage_Calculator\Mortgage_Calculator\obj\Debug\App.g.cs
+D:\development\Mortgage_Calculator\Mortgage_Calculator\obj\Debug\Mortgage_Calculator_MarkupCompile.cache
+D:\development\Mortgage_Calculator\Mortgage_Calculator\obj\Debug\Mortgage_Calculator.g.resources
+D:\development\Mortgage_Calculator\Mortgage_Calculator\obj\Debug\Mortgage_Calculator.Properties.Resources.resources
+D:\development\Mortgage_Calculator\Mortgage_Calculator\obj\Debug\Mortgage_Calculator.csproj.GenerateResource.Cache
+D:\development\Mortgage_Calculator\Mortgage_Calculator\obj\Debug\Mortgage_Calculator.exe
+D:\development\Mortgage_Calculator\Mortgage_Calculator\obj\Debug\Mortgage_Calculator.pdb

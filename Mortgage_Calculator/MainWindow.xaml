@@ -1,0 +1,32 @@
+﻿<Window x:Class="Mortgage_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mortgage Calculator" Height="370" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Column="0" Grid.Row="0" Content="Loan Amount" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="89"/>
+        <TextBox Name="loanAmountTextBox" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" Height="23" Margin="0,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Grid.Column="0" Grid.Row="1" Content="Loan Period in Years" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="140"/>
+        <TextBox Name="loanPeriodTextBox" Grid.Column="1" Grid.Row="1"  HorizontalAlignment="Left" Height="23" Margin="0,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Grid.Column="0" Grid.Row="2" Content="Annual Percentage Rate" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="140"/>
+        <TextBox Name="APRTextBox" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" Height="23" Margin="0,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Label Grid.Column="0" Grid.Row="3" Content="Compute To" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button Grid.Column="1" Grid.Row="3" Content="Nearest Cents" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="80" Click="NearestCents"/>
+        <Button Grid.Column="1" Grid.Row="3" Content="Nearest Dollars" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top" Width="90" Click="NearestDollars"/>
+
+        <DataGrid Name="Results" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="4" Margin="10,10,10,10" RowHeaderWidth="0" CanUserResizeColumns="False" CanUserResizeRows="False" IsReadOnly="True" Height="150" Width="350">
+        </DataGrid>
+    </Grid>
+</Window>
